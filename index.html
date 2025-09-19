@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Standard PNG favicon -->
+    <link rel="icon" type="image/png" href="assets/icons/Logo.png" sizes="32x32">
+
+    <!-- Apple Touch Icon (for iOS/Android shortcuts) -->
+    <link rel="apple-touch-icon" href="assets/icons/Logo.png">
+
+    <title>DapBuddy - Never Pay the full price</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="app-container">
+        <header class="header">
+            <div class="hamburger" id="hamburgerBtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            
+            <div class="dropdown-menu" id="dropdownMenu">
+                <div class="dropdown-section">
+                    <div class="menu-item" data-page="subscriptions">
+                        <span>Your Subscriptions</span>
+                        <span class="menu-arrow">›</span>
+                    </div>
+                    <div class="menu-item" data-page="payment-methods">
+                        <span>Payment Methods</span>
+                        <span class="menu-arrow">›</span>
+                    </div>
+                    <div class="menu-item" data-page="wallet">
+                        <span>In-App Wallet (Coins & Rewards)</span>
+                        <span class="menu-arrow">›</span>
+                    </div>
+                    <div class="menu-item" data-page="achievements">
+                        <span>Achievements / Badges</span>
+                        <span class="menu-arrow">›</span>
+                    </div>
+                    <div class="menu-item" data-page="invite-earn">
+                        <span>Invite & Earn</span>
+                        <span class="menu-arrow">›</span>
+                    </div>
+                </div>
+                
+                <div class="dropdown-section">
+                    <div class="setting-item">
+                        <span>Dark Mode</span>
+                        <div class="toggle-switch" id="themeToggle"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="dropdown-overlay" id="dropdownOverlay"></div>
+            
+            <div class="logo">DapBuddy</div>
+
+            <div class="header-actions">
+                <div class="auth-buttons">
+                    <button class="btn-secondary" id="loginBtn">Log In</button>
+                    <button class="btn-primary" id="signupBtn">Sign Up</button>
+                </div>
+                <div class="profile-btn">
+                    <span>U</span>
+                </div>
+            </div>
+
+        </header>
+
+        <main class="main-content">
+            <div class="search-container">
+                <input type="text" class="search-input" placeholder="Search for Spotify, YouTube, etc." id="searchInput">
+                <div class="search-icon">🔍</div>
+            </div>
+
+            <div class="category-filters">
+                <div class="filters-scroll">
+                    <div class="filter-pill active">Popular</div>
+                    <div class="filter-pill">Music</div>
+                    <div class="filter-pill">Streaming</div>
+                    <div class="filter-pill">AI & Productivity</div>
+                    <div class="filter-pill">Software</div>
+                    <div class="filter-pill">Security</div>
+                    <div class="filter-pill">Education</div>
+                    <div class="filter-pill">Cloud Storage</div>
+                    <div class="filter-pill">Games</div>
+                    <div class="filter-pill">E-commerce</div>
+                </div>
+            </div>
+
+            <section class="featured-slideshow">
+                <div class="section-header">
+                    <h2 class="section-title">Popular Plans</h2>
+                    <div class="slideshow-indicators-container">
+                        <div class="slideshow-indicators" id="slideshowIndicators"></div>
+                    </div>
+                </div>
+                <div class="slideshow-container">
+                    <div class="slideshow-viewport">
+                        <div class="slideshow-track" id="slideshowTrack">
+                        </div>
+                    </div>
+                    <div class="slideshow-nav">
+                        <button class="nav-btn prev-btn" id="slidePrevBtn">‹</button>
+                        <button class="nav-btn next-btn" id="slideNextBtn">›</button>
+                    </div>
+                </div>
+            </section>
+            <section class="host-plan-section">
+                <h3>Have empty Spots?</h3>
+                <button class="cta-button host-plan-btn" id="hostPlanBtn">Host a Plan</button>
+            </section>
+
+            <section class="how-it-works">
+                <h3>How It Works</h3>
+                <div class="steps-grid">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <div class="step-text">Choose a subscription plan</div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <div class="step-text">Join or create a group</div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <div class="step-text">Split costs & enjoy</div>
+                    </div>
+                </div>
+                <button class="learn-more-btn"><span>Learn More</span></button>
+            </section>
+        </main>
+    </div>
+
+    <div class="profile-menu-overlay" id="profileMenuOverlay">
+        <div class="profile-menu-background" id="profileMenuBackground"></div>
+        <div class="profile-menu-content" id="profileMenuContent">
+            <div class="profile-header">
+                <button class="back-button" id="profileBackBtn">‹</button>
+                <div class="profile-avatar-container">
+                    <div class="profile-avatar" id="profileAvatar">
+                        <span>U</span>
+                        <div class="edit-avatar-btn" id="editAvatarBtn">✎</div>
+                    </div>
+                    <div class="username">@Username</div>
+                </div>
+            </div>
+            
+            <div class="profile-menu-items">
+                <div class="profile-menu-item" data-page="account">
+                    <span>Account</span>
+                    <span class="menu-arrow">›</span>
+                </div>
+                <div class="profile-menu-item" data-page="notifications">
+                    <span>Notifications</span>
+                    <span class="menu-arrow">›</span>
+                </div>
+                <div class="profile-menu-item" data-page="privacy-legal">
+                    <span>Privacy & Legal</span>
+                    <span class="menu-arrow">›</span>
+                </div>
+                <div class="profile-menu-item" data-page="help-support">
+                    <span>Help & Support</span>
+                    <span class="menu-arrow">›</span>
+                </div>
+                <div class="profile-menu-item logout-item" id="logoutBtn">
+                    <span>Logout</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="avatar-edit-sheet" id="avatarEditSheet">
+        <div class="sheet-backdrop" id="sheetBackdrop"></div>
+        <div class="sheet-content">
+            <div class="sheet-header">
+                <div class="sheet-handle"></div>
+                <h3>Edit Profile Picture</h3>
+            </div>
+            <div class="sheet-options">
+                <div class="sheet-option" id="removePhotoBtn">
+                    <span class="option-icon">✕</span>
+                    <span>Remove Profile Picture</span>
+                </div>
+                <div class="sheet-option" id="cameraBtn">
+                    <span class="option-icon">📷</span>
+                    <span>Open Camera</span>
+                </div>
+                <div class="sheet-option" id="uploadBtn">
+                    <span class="option-icon">📁</span>
+                    <span>Upload from Device</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="plan-details-overlay" id="planDetailsOverlay">
+        <div class="close-btn" id="closeOverlayBtn">&times;</div>
+        
+        <div class="details-content">
+            <div class="comparison-table">
+                <div class="comparison-column">
+                    <h3 id="officialPlanName">Spotify Std Plan ☹️👎🏻</h3>
+                    <div class="price" id="officialPlanPrice">₹179/month</div>
+                    <span>Official Price</span>
+                </div>
+                <div class="comparison-column">
+                    <h3>DapBuddy's Plan 😎👍🏻</h3>
+                    <div class="price" id="dapPlanPrice">₹60/month</div>
+                    <span>Your Price</span>
+                </div>
+            </div>
+
+            <button class="invite-btn">Invite a Friend & Save More</button>
+            <button class="cta-button checkout-button">Proceed to Checkout</button>
+            
+            <div class="price-breakdown">
+                <details>
+                    <summary>Price Breakdown</summary>
+                    <div class="breakdown-content">
+                        <div class="breakdown-row">
+                            <span>Base Price (per seat)</span>
+                            <span id="basePrice">₹47.96</span>
+                        </div>
+                        <div class="breakdown-row">
+                            <span>Platform Fee</span>
+                            <span id="platformFee">₹10.20</span>
+                        </div>
+                        <div class="breakdown-row">
+                            <span>GST (18%)</span>
+                            <span id="gstAmount">₹1.84</span>
+                        </div>
+                        <hr style="border-color: rgba(100, 116, 139, 0.2); margin: 8px 0;">
+                        <div class="breakdown-row" style="font-weight: bold; color: #f1f5f9;">
+                            <span>Total</span>
+                            <span id="totalPrice">₹60.00</span>
+                        </div>
+                    </div>
+                </details>
+            </div>
+        </div>
+    </div>
+        <div class="auth-overlay" id="authOverlay">
+        <div class="auth-modal" id="authModal">
+            <button class="close-auth-btn" id="closeAuthBtn">&times;</button>
+            
+            <div class="auth-form" id="loginForm">
+                <h3>Welcome Back</h3>
+                <p>Log in to continue your journey.</p>
+                <input type="email" id="loginEmail" placeholder="Email">
+                <input type="password" id="loginPassword" placeholder="Password">
+                <button class="cta-button" id="loginSubmitBtn">Log In</button>
+                <span class="auth-toggle">Don't have an account? <a href="#" id="showSignUp">Sign Up</a></span>
+            </div>
+
+            <div class="auth-form" id="signUpForm" style="display: none;">
+                <h3>Create Account</h3>
+                <p>Join DapBuddy and start saving today.</p>
+                <input type="email" id="signUpEmail" placeholder="Email">
+                <input type="password" id="signUpPassword" placeholder="Password">
+                <input type="text" id="signUpUsername" placeholder="Username">
+                <button class="cta-button" id="signUpSubmitBtn">Create Account</button>
+                <span class="auth-toggle">Already have an account? <a href="#" id="showLogin">Log In</a></span>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="main.js"></script>
+</body>
+</html>

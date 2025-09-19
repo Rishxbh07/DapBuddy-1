@@ -1,0 +1,924 @@
+[
+  {
+    "user_id": "U100001",
+    "username": "user_1",
+    "rating": 3.6,
+    "services": [
+      {
+        "category_code": "ED",
+        "sub_category_code": "UD"
+      },
+      {
+        "category_code": "SW",
+        "sub_category_code": "M3"
+      }
+    ]
+  },
+  {
+    "user_id": "U100002",
+    "username": "user_2",
+    "rating": 4.1,
+    "services": [
+      {
+        "category_code": "SW",
+        "sub_category_code": "AC"
+      },
+      {
+        "category_code": "AI",
+        "sub_category_code": "GG"
+      },
+      {
+        "category_code": "GA",
+        "sub_category_code": "EA"
+      }
+    ]
+  },
+  {
+    "user_id": "U100003",
+    "username": "user_3",
+    "rating": 4.7,
+    "services": [
+      {
+        "category_code": "ED",
+        "sub_category_code": "UD"
+      },
+      {
+        "category_code": "CS",
+        "sub_category_code": "IC"
+      },
+      {
+        "category_code": "SE",
+        "sub_category_code": "CGH"
+      },
+      {
+        "category_code": "MU",
+        "sub_category_code": "SP"
+      }
+    ]
+  },
+  {
+    "user_id": "U100004",
+    "username": "user_4",
+    "rating": 4.4,
+    "services": [
+      {
+        "category_code": "SW",
+        "sub_category_code": "SL"
+      },
+      {
+        "category_code": "SE",
+        "sub_category_code": "SS"
+      },
+      {
+        "category_code": "ED",
+        "sub_category_code": "CR"
+      },
+      {
+        "category_code": "EC",
+        "sub_category_code": "EB"
+      }
+    ]
+  },
+  {
+    "user_id": "U100005",
+    "username": "user_5",
+    "rating": 3.3,
+    "services": [
+      {
+        "category_code": "CS",
+        "sub_category_code": "GD"
+      },
+      {
+        "category_code": "SE",
+        "sub_category_code": "SS"
+      },
+      {
+        "category_code": "EC",
+        "sub_category_code": "WM"
+      }
+    ]
+  },
+  {
+    "user_id": "U100006",
+    "username": "user_6",
+    "rating": 4.9,
+    "services": [
+      {
+        "category_code": "AI",
+        "sub_category_code": "NA"
+      },
+      {
+        "category_code": "ST",
+        "sub_category_code": "NF"
+      },
+      {
+        "category_code": "CS",
+        "sub_category_code": "DB"
+      }
+    ]
+  },
+  {
+    "user_id": "U100007",
+    "username": "user_7",
+    "rating": 3.7,
+    "services": [
+      {
+        "category_code": "ST",
+        "sub_category_code": "AP"
+      },
+      {
+        "category_code": "EC",
+        "sub_category_code": "AL"
+      }
+    ]
+  },
+  {
+    "user_id": "U100008",
+    "username": "user_8",
+    "rating": 4.2,
+    "services": [
+      {
+        "category_code": "MU",
+        "sub_category_code": "AM"
+      },
+      {
+        "category_code": "AI",
+        "sub_category_code": "CG"
+      },
+      {
+        "category_code": "GA",
+        "sub_category_code": "SM"
+      }
+    ]
+  },
+  {
+    "user_id": "U100009",
+    "username": "user_9",
+    "rating": 4.6,
+    "services": [
+      {
+        "category_code": "SE",
+        "sub_category_code": "PV"
+      },
+      {
+        "category_code": "ED",
+        "sub_category_code": "BJ"
+      },
+      {
+        "category_code": "ST",
+        "sub_category_code": "HU"
+      }
+    ]
+  },
+  {
+    "user_id": "U100010",
+    "username": "user_10",
+    "rating": 3.8,
+    "services": [
+      {
+        "category_code": "MU",
+        "sub_category_code": "TD"
+      },
+      {
+        "category_code": "ST",
+        "sub_category_code": "DS"
+      },
+      {
+        "category_code": "SW",
+        "sub_category_code": "ZM"
+      },
+      {
+        "category_code": "EC",
+        "sub_category_code": "AMZ"
+      }
+    ]
+  },
+  {
+    "user_id": "U100011",
+    "username": "user_11",
+    "rating": 4.0,
+    "services": [
+      {
+        "category_code": "MU",
+        "sub_category_code": "SP"
+      },
+      {
+        "category_code": "AI",
+        "sub_category_code": "CL"
+      }
+    ]
+  },
+  {
+    "user_id": "U100012",
+    "username": "user_12",
+    "rating": 3.4,
+    "services": [
+      {
+        "category_code": "SW",
+        "sub_category_code": "GW"
+      },
+      {
+        "category_code": "SE",
+        "sub_category_code": "NV"
+      },
+      {
+        "category_code": "GA",
+        "sub_category_code": "XG"
+      }
+    ]
+  },
+  {
+    "user_id": "U100013",
+    "username": "user_13",
+    "rating": 4.8,
+    "services": [
+      {
+        "category_code": "MU",
+        "sub_category_code": "AZ"
+      },
+      {
+        "category_code": "CS",
+        "sub_category_code": "DB"
+      },
+      {
+        "category_code": "ST",
+        "sub_category_code": "DS"
+      }
+    ]
+  },
+  {
+    "user_id": "U100014",
+    "username": "user_14",
+    "rating": 3.9,
+    "services": [
+      {
+        "category_code": "GA",
+        "sub_category_code": "SM"
+      },
+      {
+        "category_code": "ED",
+        "sub_category_code": "KA"
+      }
+    ]
+  },
+  {
+    "user_id": "U100015",
+    "username": "user_15",
+    "rating": 4.2,
+    "services": [
+      {
+        "category_code": "EC",
+        "sub_category_code": "AMZ"
+      },
+      {
+        "category_code": "AI",
+        "sub_category_code": "MC"
+      },
+      {
+        "category_code": "ST",
+        "sub_category_code": "NF"
+      },
+      {
+        "category_code": "CS",
+        "sub_category_code": "GD"
+      }
+    ]
+  },
+  {
+    "user_id": "U100016",
+    "username": "user_16",
+    "rating": 3.1,
+    "services": [
+      {
+        "category_code": "MU",
+        "sub_category_code": "AM"
+      },
+      {
+        "category_code": "SW",
+        "sub_category_code": "ZM"
+      },
+      {
+        "category_code": "ED",
+        "sub_category_code": "DL"
+      }
+    ]
+  },
+  {
+    "user_id": "U100017",
+    "username": "user_17",
+    "rating": 4.5,
+    "services": [
+      {
+        "category_code": "SE",
+        "sub_category_code": "SS"
+      },
+      {
+        "category_code": "ST",
+        "sub_category_code": "AP"
+      },
+      {
+        "category_code": "CS",
+        "sub_category_code": "OD"
+      }
+    ]
+  },
+  {
+    "user_id": "U100018",
+    "username": "user_18",
+    "rating": 4.3,
+    "services": [
+      {
+        "category_code": "GA",
+        "sub_category_code": "PS"
+      },
+      {
+        "category_code": "MU",
+        "sub_category_code": "TD"
+      },
+      {
+        "category_code": "SW",
+        "sub_category_code": "SL"
+      },
+      {
+        "category_code": "EC",
+        "sub_category_code": "AL"
+      }
+    ]
+  },
+  {
+    "user_id": "U100019",
+    "username": "user_19",
+    "rating": 3.2,
+    "services": [
+      {
+        "category_code": "AI",
+        "sub_category_code": "NA"
+      },
+      {
+        "category_code": "ED",
+        "sub_category_code": "BJ"
+      }
+    ]
+  },
+  {
+    "user_id": "U100020",
+    "username": "user_20",
+    "rating": 4.7,
+    "services": [
+      {
+        "category_code": "ST",
+        "sub_category_code": "DS"
+      },
+      {
+        "category_code": "GA",
+        "sub_category_code": "EA"
+      },
+      {
+        "category_code": "CS",
+        "sub_category_code": "DB"
+      }
+    ]
+  },
+  {
+    "user_id": "U100021",
+    "username": "user_21",
+    "rating": 3.5,
+    "services": [
+      {
+        "category_code": "ED",
+        "sub_category_code": "KA"
+      },
+      {
+        "category_code": "AI",
+        "sub_category_code": "GG"
+      }
+    ]
+  },
+  {
+    "user_id": "U100022",
+    "username": "user_22",
+    "rating": 4.6,
+    "services": [
+      {
+        "category_code": "SW",
+        "sub_category_code": "ZM"
+      },
+      {
+        "category_code": "SE",
+        "sub_category_code": "PV"
+      },
+      {
+        "category_code": "MU",
+        "sub_category_code": "AZ"
+      }
+    ]
+  },
+  {
+    "user_id": "U100023",
+    "username": "user_23",
+    "rating": 4.1,
+    "services": [
+      {
+        "category_code": "CS",
+        "sub_category_code": "GD"
+      },
+      {
+        "category_code": "GA",
+        "sub_category_code": "SM"
+      },
+      {
+        "category_code": "ED",
+        "sub_category_code": "CR"
+      }
+    ]
+  },
+  {
+    "user_id": "U100024",
+    "username": "user_24",
+    "rating": 3.9,
+    "services": [
+      {
+        "category_code": "ST",
+        "sub_category_code": "DS"
+      },
+      {
+        "category_code": "MU",
+        "sub_category_code": "AM"
+      },
+      {
+        "category_code": "EC",
+        "sub_category_code": "FP"
+      }
+    ]
+  },
+  {
+    "user_id": "U100025",
+    "username": "user_25",
+    "rating": 4.8,
+    "services": [
+      {
+        "category_code": "AI",
+        "sub_category_code": "NA"
+      },
+      {
+        "category_code": "EC",
+        "sub_category_code": "AMZ"
+      },
+      {
+        "category_code": "SW",
+        "sub_category_code": "AC"
+      }
+    ]
+  },
+  {
+    "user_id": "U100026",
+    "username": "user_26",
+    "rating": 3.3,
+    "services": [
+      {
+        "category_code": "SE",
+        "sub_category_code": "CGH"
+      },
+      {
+        "category_code": "ST",
+        "sub_category_code": "NF"
+      }
+    ]
+  },
+  {
+    "user_id": "U100027",
+    "username": "user_27",
+    "rating": 4.9,
+    "services": [
+      {
+        "category_code": "SW",
+        "sub_category_code": "M3"
+      },
+      {
+        "category_code": "MU",
+        "sub_category_code": "SP"
+      },
+      {
+        "category_code": "GA",
+        "sub_category_code": "XG"
+      },
+      {
+        "category_code": "EC",
+        "sub_category_code": "AL"
+      }
+    ]
+  },
+  {
+    "user_id": "U100028",
+    "username": "user_28",
+    "rating": 3.8,
+    "services": [
+      {
+        "category_code": "MU",
+        "sub_category_code": "AZ"
+      },
+      {
+        "category_code": "CS",
+        "sub_category_code": "DB"
+      }
+    ]
+  },
+  {
+    "user_id": "U100029",
+    "username": "user_29",
+    "rating": 4.2,
+    "services": [
+      {
+        "category_code": "SW",
+        "sub_category_code": "GW"
+      },
+      {
+        "category_code": "ST",
+        "sub_category_code": "HB"
+      },
+      {
+        "category_code": "SE",
+        "sub_category_code": "PV"
+      }
+    ]
+  },
+  {
+    "user_id": "U100030",
+    "username": "user_30",
+    "rating": 3.7,
+    "services": [
+      {
+        "category_code": "EC",
+        "sub_category_code": "WM"
+      },
+      {
+        "category_code": "GA",
+        "sub_category_code": "EA"
+      },
+      {
+        "category_code": "AI",
+        "sub_category_code": "CG"
+      }
+    ]
+  },
+  {
+    "user_id": "U100031",
+    "username": "user_31",
+    "rating": 4.0,
+    "services": [
+      {
+        "category_code": "CS",
+        "sub_category_code": "GD"
+      },
+      {
+        "category_code": "ED",
+        "sub_category_code": "UD"
+      }
+    ]
+  },
+  {
+    "user_id": "U100032",
+    "username": "user_32",
+    "rating": 4.9,
+    "services": [
+      {
+        "category_code": "ST",
+        "sub_category_code": "NF"
+      },
+      {
+        "category_code": "MU",
+        "sub_category_code": "SP"
+      },
+      {
+        "category_code": "GA",
+        "sub_category_code": "SM"
+      }
+    ]
+  },
+  {
+    "user_id": "U100033",
+    "username": "user_33",
+    "rating": 3.6,
+    "services": [
+      {
+        "category_code": "EC",
+        "sub_category_code": "AL"
+      },
+      {
+        "category_code": "AI",
+        "sub_category_code": "CL"
+      },
+      {
+        "category_code": "CS",
+        "sub_category_code": "DB"
+      }
+    ]
+  },
+  {
+    "user_id": "U100034",
+    "username": "user_34",
+    "rating": 4.3,
+    "services": [
+      {
+        "category_code": "ST",
+        "sub_category_code": "DS"
+      },
+      {
+        "category_code": "ST",
+        "sub_category_code": "AP"
+      },
+      {
+        "category_code": "ED",
+        "sub_category_code": "DL"
+      }
+    ]
+  },
+  {
+    "user_id": "U100035",
+    "username": "user_35",
+    "rating": 3.2,
+    "services": [
+      {
+        "category_code": "SW",
+        "sub_category_code": "SL"
+      },
+      {
+        "category_code": "SE",
+        "sub_category_code": "EV"
+      },
+      {
+        "category_code": "MU",
+        "sub_category_code": "AM"
+      }
+    ]
+  },
+  {
+    "user_id": "U100036",
+    "username": "user_36",
+    "rating": 4.7,
+    "services": [
+      {
+        "category_code": "SW",
+        "sub_category_code": "GW"
+      },
+      {
+        "category_code": "ED",
+        "sub_category_code": "CR"
+      }
+    ]
+  },
+  {
+    "user_id": "U100037",
+    "username": "user_37",
+    "rating": 4.5,
+    "services": [
+      {
+        "category_code": "SW",
+        "sub_category_code": "ZM"
+      },
+      {
+        "category_code": "ST",
+        "sub_category_code": "NF"
+      },
+      {
+        "category_code": "EC",
+        "sub_category_code": "AMZ"
+      }
+    ]
+  },
+  {
+    "user_id": "U100038",
+    "username": "user_38",
+    "rating": 3.9,
+    "services": [
+      {
+        "category_code": "MU",
+        "sub_category_code": "SP"
+      },
+      {
+        "category_code": "GA",
+        "sub_category_code": "SM"
+      }
+    ]
+  },
+  {
+    "user_id": "U100039",
+    "username": "user_39",
+    "rating": 4.1,
+    "services": [
+      {
+        "category_code": "SE",
+        "sub_category_code": "CGH"
+      },
+      {
+        "category_code": "ST",
+        "sub_category_code": "DS"
+      },
+      {
+        "category_code": "EC",
+        "sub_category_code": "AL"
+      }
+    ]
+  },
+  {
+    "user_id": "U100040",
+    "username": "user_40",
+    "rating": 3.5,
+    "services": [
+      {
+        "category_code": "CS",
+        "sub_category_code": "DB"
+      },
+      {
+        "category_code": "AI",
+        "sub_category_code": "NA"
+      },
+      {
+        "category_code": "ED",
+        "sub_category_code": "BJ"
+      }
+    ]
+  },
+  {
+    "user_id": "U100041",
+    "username": "user_41",
+    "rating": 4.8,
+    "services": [
+      {
+        "category_code": "AI",
+        "sub_category_code": "MC"
+      },
+      {
+        "category_code": "SE",
+        "sub_category_code": "PV"
+      },
+      {
+        "category_code": "GA",
+        "sub_category_code": "XG"
+      }
+    ]
+  },
+  {
+    "user_id": "U100042",
+    "username": "user_42",
+    "rating": 3.4,
+    "services": [
+      {
+        "category_code": "ST",
+        "sub_category_code": "DS"
+      },
+      {
+        "category_code": "EC",
+        "sub_category_code": "WM"
+      }
+    ]
+  },
+  {
+    "user_id": "U100043",
+    "username": "user_43",
+    "rating": 4.0,
+    "services": [
+      {
+        "category_code": "AI",
+        "sub_category_code": "GG"
+      },
+      {
+        "category_code": "SW",
+        "sub_category_code": "ZM"
+      },
+      {
+        "category_code": "MU",
+        "sub_category_code": "TD"
+      }
+    ]
+  },
+  {
+    "user_id": "U100044",
+    "username": "user_44",
+    "rating": 3.7,
+    "services": [
+      {
+        "category_code": "ST",
+        "sub_category_code": "NF"
+      },
+      {
+        "category_code": "CS",
+        "sub_category_code": "GD"
+      },
+      {
+        "category_code": "ED",
+        "sub_category_code": "KA"
+      }
+    ]
+  },
+  {
+    "user_id": "U100045",
+    "username": "user_45",
+    "rating": 4.9,
+    "services": [
+      {
+        "category_code": "MU",
+        "sub_category_code": "AM"
+      },
+      {
+        "category_code": "SW",
+        "sub_category_code": "AC"
+      },
+      {
+        "category_code": "EC",
+        "sub_category_code": "AL"
+      }
+    ]
+  },
+  {
+    "user_id": "U100046",
+    "username": "user_46",
+    "rating": 3.8,
+    "services": [
+      {
+        "category_code": "MU",
+        "sub_category_code": "SP"
+      },
+      {
+        "category_code": "SE",
+        "sub_category_code": "NV"
+      },
+      {
+        "category_code": "GA",
+        "sub_category_code": "PS"
+      }
+    ]
+  },
+  {
+    "user_id": "U100047",
+    "username": "user_47",
+    "rating": 4.6,
+    "services": [
+      {
+        "category_code": "ST",
+        "sub_category_code": "AP"
+      },
+      {
+        "category_code": "SW",
+        "sub_category_code": "GW"
+      }
+    ]
+  },
+  {
+    "user_id": "U100048",
+    "username": "user_48",
+    "rating": 3.3,
+    "services": [
+      {
+        "category_code": "CS",
+        "sub_category_code": "DB"
+      },
+      {
+        "category_code": "ST",
+        "sub_category_code": "DS"
+      },
+      {
+        "category_code": "ED",
+        "sub_category_code": "CR"
+      }
+    ]
+  },
+  {
+    "user_id": "U100049",
+    "username": "user_49",
+    "rating": 4.2,
+    "services": [
+      {
+        "category_code": "ST",
+        "sub_category_code": "NF"
+      },
+      {
+        "category_code": "CS",
+        "sub_category_code": "OD"
+      },
+      {
+        "category_code": "ED",
+        "sub_category_code": "KA"
+      }
+    ]
+  },
+  {
+    "user_id": "U100050",
+    "username": "user_50",
+    "rating": 3.9,
+    "services": [
+      {
+        "category_code": "EC",
+        "sub_category_code": "AL"
+      },
+      {
+        "category_code": "AI",
+        "sub_category_code": "CG"
+      },
+      {
+        "category_code": "MU",
+        "sub_category_code": "SP"
+      }
+    ]
+  }
+]

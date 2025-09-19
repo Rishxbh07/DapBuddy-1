@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Standard PNG favicon -->
+    <link rel="icon" type="image/png" href="DapBuddy/assets/icons/Logo.png" sizes="32x32">
+
+    <!-- Apple Touch Icon (for iOS/Android shortcuts) -->
+    <link rel="apple-touch-icon" href="DapBuddy/assets/icons/Logo.png">
+
+    <title>Marketplace - DapBuddy</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="app-container">
+        <header class="header">
+            <a href="index.html" class="back-link">‹</a>
+            <div class="header-title">Spotify Plans</div>
+            <div class="header-actions">
+            </div>
+        </header>
+
+        <main class="main-content">
+            
+            <div class="plan-tabs">
+                <a href="#" class="plan-tab" id="dapbuddyPlanTab">dapBuddy plan</a>
+                <a href="#" class="plan-tab active" id="communityPlansTab">Community Plans</a>
+            </div>
+
+            <div class="marketplace-stats">
+                <div class="stat-item">
+                    <div class="stat-value" id="totalPlans">0</div>
+                    <div class="stat-label">Active Plans</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value" id="avgPrice">₹--</div>
+                    <div class="stat-label">Avg. Price</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value" id="topRating">-.-</div>
+                    <div class="stat-label">Top Rated</div>
+                </div>
+            </div>
+
+            <div class="marketplace-filters">
+                <div class="filter-dropdown">
+                    <select class="filter-select" id="sortFilter">
+                        <option value="price-low">Price: Low to High</option>
+                        <option value="price-high">Price: High to Low</option>
+                        <option value="rating">Rating: High to Low</option>
+                        <option value="newest">Newest First</option>
+                    </select>
+                </div>
+                <div class="filter-dropdown">
+                    <select class="filter-select" id="priceFilter">
+                        <option value="all">All Prices</option>
+                        <option value="0-50">₹0 - ₹50</option>
+                        <option value="50-70">₹50 - ₹70</option>
+                        <option value="70+">₹70+</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id="dapbuddy-plan-container" style="display: none;"></div>
+
+            <div id="marketplace-container" class="marketplace-listings">
+
+            <div id="marketplace-container" class="marketplace-listings">
+            </div>
+        </main>
+    </div>
+
+    <script type="module" src="main.js"></script>
+</body>
+</html>

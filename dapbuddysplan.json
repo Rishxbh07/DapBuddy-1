@@ -1,0 +1,374 @@
+{
+  "service_categories": [
+    {
+      "category_name": "🎵 Music",
+      "services": [
+        {
+          "service_id": "SPOTIFY_FAMILY_SLOT_1M",
+          "service_name": "Spotify",
+          "plan_name": "Premium (1 Slot)",
+          "pricing": {
+            "actual_price": 139.00,
+            "offered_price": 70.00,
+            "price_breakdown": {
+              "base_price": 59.00,
+              "platform_fees": 11.00
+            }
+          }
+        },
+        {
+          "service_id": "APPLE_MUSIC_FAMILY_SLOT_1M",
+          "service_name": "Apple Music",
+          "plan_name": "Family Plan (1 Slot)",
+          "pricing": {
+            "actual_price": 99.00,
+            "offered_price": 50.00,
+            "price_breakdown": {
+              "base_price": 39.00,
+              "platform_fees": 11.00
+            }
+          }
+        },
+        {
+          "service_id": "YOUTUBE_MUSIC_FAMILY_SLOT_1M",
+          "service_name": "YouTube Music",
+          "plan_name": "Premium Family (1 Slot)",
+          "pricing": {
+            "actual_price": 129.00,
+            "offered_price": 60.00,
+            "price_breakdown": {
+              "base_price": 49.00,
+              "platform_fees": 11.00
+            }
+          }
+        },
+        {
+          "service_id": "AMAZON_MUSIC_PRIME_1M",
+          "service_name": "Amazon Music",
+          "plan_name": "Prime Music",
+          "pricing": {
+            "actual_price": 125.00,
+            "offered_price": 125.00,
+            "price_breakdown": {
+              "base_price": 125.00,
+              "platform_fees": 0.00
+            }
+          }
+        },
+        {
+          "service_id": "TIDAL_HIFI_PLUS_1M",
+          "service_name": "Tidal",
+          "plan_name": "HiFi Plus",
+          "pricing": {
+            "actual_price": 920.00,
+            "offered_price": 920.00,
+            "price_breakdown": {
+              "base_price": 920.00,
+              "platform_fees": 0.00
+            }
+          }
+        }
+      ]
+    },
+    {
+      "category_name": "🎬 Streaming (Video)",
+      "services": [
+        {
+          "service_id": "NETFLIX_PREMIUM_SLOT_1M",
+          "service_name": "Netflix",
+          "plan_name": "Premium (1 Slot/Screen)",
+          "pricing": {
+            "actual_price": 499.00,
+            "offered_price": 290.00,
+            "price_breakdown": {
+              "base_price": 259.00,
+              "platform_fees": 31.00
+            }
+          }
+        },
+        {
+          "service_id": "HOTSTAR_PREMIUM_SLOT_1M",
+          "service_name": "Disney+ Hotstar",
+          "plan_name": "Premium (1 Slot/Screen)",
+          "pricing": {
+            "actual_price": 299.00,
+            "offered_price": 140.00,
+            "price_breakdown": {
+              "base_price": 119.00,
+              "platform_fees": 21.00
+            }
+          }
+        },
+        {
+          "service_id": "PRIME_VIDEO_1M",
+          "service_name": "Amazon Prime Video",
+          "plan_name": "Standard",
+          "pricing": {
+            "actual_price": 125.00,
+            "offered_price": 125.00,
+            "price_breakdown": {
+              "base_price": 125.00,
+              "platform_fees": 0.00
+            }
+          }
+        }
+      ]
+    },
+    {
+      "category_name": "🤖 AI & Productivity",
+      "services": [
+        {
+          "service_id": "CHATGPT_PLUS_1M",
+          "service_name": "ChatGPT",
+          "plan_name": "Plus",
+          "pricing": {
+            "actual_price": 1670.00,
+            "offered_price": 1670.00,
+            "price_breakdown": {
+              "base_price": 1670.00,
+              "platform_fees": 0.00
+            }
+          }
+        },
+        {
+          "service_id": "GEMINI_ADVANCED_FAMILY_SLOT_1M",
+          "service_name": "Google Gemini",
+          "plan_name": "Advanced (1 Slot)",
+          "pricing": {
+            "actual_price": 1950.00,
+            "offered_price": 530.00,
+            "price_breakdown": {
+              "base_price": 469.00,
+              "platform_fees": 61.00
+            }
+          }
+        },
+        {
+          "service_id": "CLAUDE_PRO_1M",
+          "service_name": "Claude",
+          "plan_name": "Pro",
+          "pricing": {
+            "actual_price": 1670.00,
+            "offered_price": 1670.00,
+            "price_breakdown": {
+              "base_price": 1670.00,
+              "platform_fees": 0.00
+            }
+          }
+        },
+        {
+          "service_id": "MS_COPILOT_PRO_1M",
+          "service_name": "Microsoft Copilot",
+          "plan_name": "Pro",
+          "pricing": {
+            "actual_price": 2000.00,
+            "offered_price": 2000.00,
+            "price_breakdown": {
+              "base_price": 2000.00,
+              "platform_fees": 0.00
+            }
+          }
+        },
+        {
+          "service_id": "NOTION_AI_1M",
+          "service_name": "Notion AI",
+          "plan_name": "Add-on",
+          "pricing": {
+            "actual_price": 835.00,
+            "offered_price": 835.00,
+            "price_breakdown": {
+              "base_price": 835.00,
+              "platform_fees": 0.00
+            }
+          }
+        }
+      ]
+    },
+    {
+      "category_name": "💻 Software (Office / General Tools)",
+      "services": [
+        {
+          "service_id": "M365_FAMILY_SLOT_1M",
+          "service_name": "Microsoft 365",
+          "plan_name": "Family (1 Slot)",
+          "pricing": {
+            "actual_price": 408.00,
+            "offered_price": 130.00,
+            "price_breakdown": {
+              "base_price": 119.00,
+              "platform_fees": 11.00
+            }
+          }
+        },
+        {
+          "service_id": "GWORKSPACE_BIZ_STARTER_1M",
+          "service_name": "Google Workspace",
+          "plan_name": "Business Starter",
+          "pricing": {
+            "actual_price": 125.00,
+            "offered_price": 125.00,
+            "price_breakdown": {
+              "base_price": 125.00,
+              "platform_fees": 0.00
+            }
+          }
+        },
+        {
+          "service_id": "ADOBE_CC_ALL_APPS_1M",
+          "service_name": "Adobe Creative Cloud",
+          "plan_name": "All Apps",
+          "pricing": {
+            "actual_price": 2394.00,
+            "offered_price": 2394.00,
+            "price_breakdown": {
+              "base_price": 2394.00,
+              "platform_fees": 0.00
+            }
+          }
+        }
+      ]
+    },
+    {
+      "category_name": "🔒 Security (VPN / Privacy)",
+      "services": [
+        {
+          "service_id": "NORDVPN_STANDARD_1M",
+          "service_name": "NordVPN",
+          "plan_name": "Standard (Monthly)",
+          "pricing": {
+            "actual_price": 999.00,
+            "offered_price": 999.00,
+            "price_breakdown": {
+              "base_price": 999.00,
+              "platform_fees": 0.00
+            }
+          }
+        },
+        {
+          "service_id": "EXPRESSVPN_1M",
+          "service_name": "ExpressVPN",
+          "plan_name": "Standard (Monthly)",
+          "pricing": {
+            "actual_price": 1082.00,
+            "offered_price": 1082.00,
+            "price_breakdown": {
+              "base_price": 1082.00,
+              "platform_fees": 0.00
+            }
+          }
+        }
+      ]
+    },
+    {
+      "category_name": "📚 Education / Learning",
+      "services": [
+        {
+          "service_id": "DUOLINGO_FAMILY_SLOT_1M",
+          "service_name": "Duolingo",
+          "plan_name": "Super Family (1 Slot)",
+          "pricing": {
+            "actual_price": 62.00,
+            "offered_price": 30.00,
+            "price_breakdown": {
+              "base_price": 29.00,
+              "platform_fees": 1.00
+            }
+          }
+        },
+        {
+          "service_id": "COURSERA_PLUS_1M",
+          "service_name": "Coursera",
+          "plan_name": "Plus (Monthly)",
+          "pricing": {
+            "actual_price": 4900.00,
+            "offered_price": 4900.00,
+            "price_breakdown": {
+              "base_price": 4900.00,
+              "platform_fees": 0.00
+            }
+          }
+        }
+      ]
+    },
+    {
+      "category_name": "☁️ Cloud Storage",
+      "services": [
+        {
+          "service_id": "ICLOUD_2TB_SLOT_1M",
+          "service_name": "iCloud+",
+          "plan_name": "2TB Plan (1 Slot)",
+          "pricing": {
+            "actual_price": 219.00,
+            "offered_price": 180.00,
+            "price_breakdown": {
+              "base_price": 159.00,
+              "platform_fees": 21.00
+            }
+          }
+        },
+        {
+          "service_id": "GDRIVE_2TB_SLOT_1M",
+          "service_name": "Google Drive",
+          "plan_name": "Google One 2TB (1 Slot)",
+          "pricing": {
+            "actual_price": 219.00,
+            "offered_price": 180.00,
+            "price_breakdown": {
+              "base_price": 159.00,
+              "platform_fees": 21.00
+            }
+          }
+        }
+      ]
+    },
+    {
+      "category_name": "🎮 Games (Subscriptions / Platforms)",
+      "services": [
+        {
+          "service_id": "XBOX_GAME_PASS_ULTIMATE_1M",
+          "service_name": "Xbox Game Pass",
+          "plan_name": "Ultimate",
+          "pricing": {
+            "actual_price": 549.00,
+            "offered_price": 549.00,
+            "price_breakdown": {
+              "base_price": 549.00,
+              "platform_fees": 0.00
+            }
+          }
+        },
+        {
+          "service_id": "PS_PLUS_EXTRA_1M",
+          "service_name": "PlayStation Plus",
+          "plan_name": "Extra (Monthly)",
+          "pricing": {
+            "actual_price": 749.00,
+            "offered_price": 749.00,
+            "price_breakdown": {
+              "base_price": 749.00,
+              "platform_fees": 0.00
+            }
+          }
+        }
+      ]
+    },
+    {
+      "category_name": "🛒 E-commerce / Shopping",
+      "services": [
+        {
+          "service_id": "AMAZON_PRIME_1M",
+          "service_name": "Amazon Prime",
+          "plan_name": "Membership (Monthly)",
+          "pricing": {
+            "actual_price": 125.00,
+            "offered_price": 125.00,
+            "price_breakdown": {
+              "base_price": 125.00,
+              "platform_fees": 0.00
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
